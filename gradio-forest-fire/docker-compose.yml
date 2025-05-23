@@ -1,0 +1,6 @@
+services:
+  gradioforestfire:
+    image: gradioforestfire
+    build:
+      context: .
+      dockerfile: ./Dockerfile
